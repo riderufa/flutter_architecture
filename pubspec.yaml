@@ -34,6 +34,8 @@ dependencies:
   get_it: ^7.2.0
   module_business:
     path: packages/module_business
+  module_analyzer:
+    path: packages/module_analyzer
 
 
   # The following adds the Cupertino Icons font to your application.

@@ -24,7 +24,7 @@ class MainBloc {
     _blocEventsController.stream.listen((event) {
       event.map<void>(
         init: (_) async {
-          _blocStateController.add(MainBlocState.loading());
+          _blocStateController.add(const MainBlocState.loading());
           _blocStateController.add(MainBlocState.loaded(user: await userService.getDefaultUser()));
         },
         setUser: (event) async => _blocStateController.add(
