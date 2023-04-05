@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:injectable/injectable.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:module_data/module_data.dart';
-import 'package:module_model/module_model.dart';
 
 part 'main_bloc.freezed.dart';
 

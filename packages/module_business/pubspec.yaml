@@ -29,8 +29,6 @@ dependencies:
   freezed_annotation: ^2.2.0
   module_data:
     path: ../module_data
-  module_model:
-    path: ../module_model
   module_analyzer:
     path: ../module_analyzer
 

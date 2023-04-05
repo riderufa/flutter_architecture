@@ -1,4 +1,4 @@
-import 'package:module_model/module_model.dart';
+import 'package:module_data/src/models/user/user.dart';
 
 import '../services.dart';
 import 'package:injectable/injectable.dart';
